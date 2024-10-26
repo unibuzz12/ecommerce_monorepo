@@ -1,0 +1,14 @@
+{
+    "env": {
+      "node": true,          // Enable Node.js global variables and Node.js scoping.
+      "es2021": true         // Enable ECMAScript 2021 syntax.
+    },
+    "extends": "eslint:recommended",  // Extends recommended ESLint rules
+    "parser": "@typescript-eslint/parser",   // Specifies ESLint parser for TypeScript
+    "plugins": ["@typescript-eslint"],       // Enables TypeScript plugin
+    "rules": {
+      "no-unused-vars": "warn",              // Warns about unused variables
+      "no-console": "off"                    // Allow console statements (for logging)
+    }
+  }
+  
